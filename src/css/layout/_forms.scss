@@ -1,0 +1,37 @@
+.search-container {
+    width: 25vw;
+    height: 100vh;
+    position: fixed;
+    padding: 4rem 2rem 0;
+    background: yellow;
+    text-align: left;
+    .browser {
+        label {
+            padding-bottom: 1rem;
+        }
+        display: flex;
+        flex-flow: column nowrap;
+    }
+    div {
+        width: 90%;
+        display: none;
+        flex-flow: row wrap;
+        align-items: center;
+        h3 {
+            font-weight: 600;
+            padding-right: .5rem;
+            display: block;
+        }
+        label {
+            padding: .5rem;
+        }
+        &.categorie {
+            flex-flow: column nowrap;
+            align-items: flex-start;
+        }
+        .row {
+            display: flex;
+            align-items: center;
+        }
+    }
+}

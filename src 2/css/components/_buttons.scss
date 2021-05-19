@@ -1,0 +1,16 @@
+.btn-primary,
+.btn-primary:active, .btn-primary:focus{
+    background-color: #ee5209;
+    border-color: #ee5209;
+    box-shadow: none;
+
+    &:hover {
+        background-color: #ee3e09;
+        border-color: #ee3e09;
+        box-shadow: none;
+    }
+}
+
+.text-primary {
+    color: #ee5209 !important;
+}

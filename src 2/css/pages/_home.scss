@@ -1,0 +1,99 @@
+.card {
+    width: 18rem;
+    margin: 10px;
+
+}
+
+.panier {
+    z-index: 10 !important;
+}
+
+.show-block {
+    display: block;
+}
+
+.off,
+.dropdown-toggle::after {
+    display: none;
+}
+
+.on {
+    display: flex;
+}
+
+.notification {
+    visibility: hidden;
+}
+
+.show-notif {
+    visibility: visible;
+}
+
+.input-group {
+    width: 20%;
+    justify-content: center;
+}
+
+/* partie commune */
+input[type=range]::-webkit-slider-thumb {
+    background: #ee5209;
+    
+}
+.page {
+    top: 0;
+    left: 0;
+    width: 50%;
+    min-height:0px !important;
+   position: relative !important;
+    display: none;
+    border: 0;
+}
+.ui-slider-bg, .ui-btn-active{
+    background-color: #ee5209 !important;
+    border-color: #ee5209 !important;
+}
+.ui-page-theme-a .ui-btn:focus{
+    box-shadow: 0 0 12px#ee5209 !important;
+}
+.ui-rangeslider{
+    width: 100% !important;
+}
+.ui-btn {
+    overflow: visible;
+}
+
+.pagination{
+   display: flex;
+   justify-content: center;
+   button{
+    background-color: #ee5209 ;
+    margin: 10px 10px;
+    color: white;
+    border: none;
+    font-size: 25px;
+   }
+}
+.li{
+    display: flex;
+    justify-content: center;
+    button{
+        margin-right: 20px;
+    }
+}
+.dropdown-menu{
+    margin-left: -50px !important;
+    width: auto !important;
+}
+
+.prix{
+    display: flex;
+    justify-content: center;
+    font-size: 20px;
+}
+.filtrage{
+    flex-wrap: nowrap;
+    // overflow: hidden;
+}
+.container{
+    overflow: hidden;
+}
